@@ -1,0 +1,15 @@
+# The datasets and the weights are ~17 GB and are downloaded at the start of a
+# session, never committed. The two folders themselves are kept so the download
+# has somewhere to land.
+data/*
+weights/*
+!data/.gitkeep
+!weights/.gitkeep
+
+# Python and notebook noise
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
